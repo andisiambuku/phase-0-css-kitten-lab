@@ -1,10 +1,10 @@
-/* Select the image with a class of kitty-1 */
+
 .kitty-1 {
   position: absolute;
   z-index: 1;
   top: 276px;
   left: 129px;
-}
+} 
 
 #kitty-2 {
   position: absolute;
@@ -13,7 +13,7 @@
   left: 369px;
 }
 
-#basket {
+#basket img{
   position: absolute;
   z-index: 5;
   top: 291px;
@@ -27,8 +27,8 @@
   left: 455px;
 }
 
-/* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
-img[src ="images/kitty-5.png"]{
+/*Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
+img[alt="Kitty 5"]{
   position: absolute;
   z-index: 3;
   top: 217px;
